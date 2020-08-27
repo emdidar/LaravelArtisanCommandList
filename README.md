@@ -20,4 +20,5 @@ php artisan migrate
 #to Clear Cache
 php artisan cache:clear
 
-
+#Single command for creating migration,controller and model 
+php artisan make:model Company -mrc
