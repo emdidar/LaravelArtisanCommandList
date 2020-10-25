@@ -26,7 +26,17 @@ php artisan make:model Company -mrc
 #To Create Table
 php artisan make:migration create_menus_table
 
+#To Update Table
+php artisan make:migration update_menus_table
+
 #To Create Seeder
 php artisan make:seeder MenuSeeder
+
+#To Create Storage link
+php artisan storage:link
+
+
+
+
 
 
