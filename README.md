@@ -35,12 +35,10 @@ php artisan make:seeder MenuSeeder
 #To Create Storage link
 php artisan storage:link
 
+#To Remove Storage link
+rm public/storage
+
 #Maintenance mode
 php artisan down
 php artisan up
-
-
-
-
-
 
